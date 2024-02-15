@@ -1,0 +1,200 @@
+h1
+{
+   text-align: center;
+}
+.create_lot
+{
+    width: 90%;
+    background: rgb(242, 242, 242);
+    margin: 10px auto;
+    padding: 30px 0px 30px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.add_items
+{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+}
+.add_items span
+{
+    color: black;
+    font-weight: normal;
+}
+.add_items p, input, select, span
+{
+    font-size: 18px;
+}
+.add_items p
+{
+    font-weight: 600;
+}
+.add_items input, select
+{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.add_item
+{
+    padding: 10px 20px 10px 20px;
+    background: white;
+    border-radius: 5px;
+}
+.add_item1
+{
+    grid-column: 1/4;
+}
+.add_item1 div
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.add_item1 input
+{
+    width: 100%;
+}
+.add_item1 p:nth-child(2)
+{
+    font-size: 15px;
+    font-weight: normal;
+}
+.add_item2
+{
+    grid-column: 1/4;
+}
+.select
+{
+    width: 30%;
+    background: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    text-align: start;
+}
+.add_item3
+{
+    grid-column: 1/4;
+}
+.add_item3 span
+{
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+.add_item3 label
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: #282828;
+    cursor: pointer;
+}
+.add_item3 input
+{
+    display: none;
+}
+.add_item4
+{
+    grid-column: 1/4;
+}
+.type_sale_pay_delivery
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.name_type
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.type_auction select
+{
+    margin: 10px 0px 10px 0px;
+}
+.des_aution
+{
+    border: 2px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px;
+}
+li
+{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.li_checkbox
+{
+    display: flex;
+    align-items: center;
+}
+.li_checkbox span
+{
+    width: 5mm;
+    height: 5mm;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.li_checkbox input
+{
+    display: none;
+}
+[type=checkbox]:checked + span:before
+{
+    content: '\2714';
+    background: green;
+    padding: 5px 0px 0px 2px;
+    width: 5mm;
+    height: 5mm;
+    font-size: 18px;
+}
+.delivery select
+{
+    margin: 10px 0px 10px 0px;
+}
+.access_lot
+{
+    grid-column: 1/4;
+}
+.type_access
+{   
+    width: 70%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.type_access span
+{
+    margin-left: 5px;
+}
+.code_access
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+.description
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.description h2
+{
+    margin-bottom: 10px;
+}

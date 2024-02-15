@@ -1,0 +1,33 @@
+.cointainer
+{
+    margin: 10px auto;
+    width: 90%;
+}
+h1
+{
+    width: 90%;
+    line-height: 50px;
+}
+.type_lots
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.link_img
+{
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.lot p
+{
+    margin-top: 10px;
+    display: inline-block;
+}
+.scroll_hor
+{
+    border: 1px solid black;
+}

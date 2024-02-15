@@ -1,0 +1,25 @@
+input[name=name_lot], .name_lot, .name
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.views, .start_price span, input[name=start_price]
+{
+    color: red;
+}
+.des_feat, .views, .start_price, .start_price span, input[name=start_price], label, label input
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+select
+{
+    font-size: 17px;
+    font-weight: 500;
+}
+label
+{
+    height: 20px;
+}

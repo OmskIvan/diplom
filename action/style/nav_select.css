@@ -1,0 +1,221 @@
+:root
+{
+    --padding_div: 10px;
+    --border_div: 5px;
+}
+nav
+{
+    width: 90%;
+    margin: 20px auto;
+    padding: var(--padding_div);
+    background: rgb(230, 230, 230);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.filtration
+{
+    padding: var(--padding_div);
+    border-radius: var(--border_div);
+    background: white;
+}
+hr 
+{
+    background-color:#b7b7b7;
+    border:0px none;
+    width: 100%;
+    height:1px;
+    clear:both; 
+    margin: 10px 0px;
+}
+b
+{
+    font-size: 20px;
+}
+.filtration p
+{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.elems_filtr
+{
+    margin-top: 10px;
+    height: 300px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+.elems_filtr::-webkit-scrollbar
+{
+    width: 0px; 
+    background: transparent;
+}
+.filtr_price
+{   
+    display: flex;
+    justify-content: space-between;
+}
+.filtr_price div
+{
+    margin-top: 10px;
+}
+.filtr_price input
+{
+    width: 70%;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.filtr_price label
+{
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+}
+.delivery
+{
+    width: 50%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.delivery label
+{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.delete_lot
+{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding_div);
+    border-radius: var(--border_div);
+    background: white;
+}
+.del_checkbox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete
+{
+    width: 20px;
+    height: 20px;
+}
+.del_checkbox input
+{
+    display: none;
+}
+.del_checkbox span
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.del_checkbox input:checked + span:before
+{
+    content: '\2714';
+    background: red;
+    padding: 5px 0px 0px 2px;
+    width: 5mm;
+    height: 5mm;
+    font-size: 18px;
+}
+.lot
+{
+    margin-top: 10px;
+    padding: var(--padding_div);
+    border-radius: var(--border_div);
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr 8fr 1fr;
+    grid-column-gap: 15px;
+}
+.checkbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox input
+{
+    display: none;
+}
+.checkbox span
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox input:checked + span:before
+{
+    content: '\2714';
+    background: red;
+    padding: 5px 0px 0px 2px;
+    width: 5mm;
+    height: 5mm;
+    font-size: 18px;
+}
+.image
+{
+    height: 160px;
+    border: 1px solid black;
+}
+.info
+{
+}
+.info p
+{
+    margin-top: 10px;
+}
+.name
+{
+    font-size: 20px;
+}
+.price
+{
+    font-size: 18px;
+}
+.price span
+{
+    font-size: 20px;
+    color: red;
+}
+.time
+{
+    font-size: 18px;
+}
+.delete_item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete_item button
+{
+    width: 20px;
+    height: 20px;
+}

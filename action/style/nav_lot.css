@@ -1,0 +1,201 @@
+:root
+{
+    --font-size-p:20px;
+    --font-size-span:22px
+}
+.cointainer
+{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    grid-column-gap: 50px;
+}
+.images
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+.images img
+{
+    border: 1px solid black;
+}
+.images div .small_img:not(:first-child)
+{
+    margin-top: 10px;
+}
+.small_img
+{
+    width: 100%;
+    height: 105px;
+}
+.big_img
+{
+    width: 500px;
+    height: 450px;
+    grid-row: 1/6;
+    grid-column: 2/3;
+}
+.info_lot
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 15px;
+}
+.info_lot div
+{
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+}
+.pay, .basket, .subscription, .add button, .add input
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.pay
+{
+    color: white;
+    background: red;
+}
+.basket
+{
+    color: white;
+    background:green;
+    margin-left: 20px;
+}
+.info_lot div p:nth-child(2)
+{
+    margin-left: 20px;
+}
+.one_line
+{
+    grid-column: 1/4;
+}
+.info_p
+{
+    font-size: 14px;
+}
+.name
+{
+    font-size: 22px;
+}
+.price, .time_end
+{
+    font-size: 20px;
+}
+.price span
+{
+    font-size: 20px;
+    color: red;
+}
+.grey_bac
+{
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    background: gainsboro;
+    border-radius: 5px;
+}
+.a_citi
+{
+    color: blue;
+}
+.icon
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: gainsboro;
+}
+.subscription
+{
+    color: black;
+    background: rgb(230, 229, 229);
+    margin-left: 20px;
+}
+.mess_g
+{
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.description_lot
+{
+    margin-top: 20px;
+    grid-column: 1/4;
+}
+.description
+{
+    height: 200px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.bid
+{
+    margin-top: 20px;
+    grid-column: 1/4;
+}
+.add_bid
+{   
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.add
+{
+    display: flex;
+}
+.add input
+{
+    border: 1px solid black;
+}
+.add button
+{
+    margin-left: 20px;
+    background: red;
+    color: white;
+}
+.rates
+{
+    margin-top: 20px;
+}
+.rates div:not(:first-child)
+{
+    margin-top: 10px;
+}
+.rates div
+{
+    width: 20%;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    padding: 5px;
+}
+.price_bid
+{
+    font-size: var(--font-size-p);
+}
+.price_bid span
+{
+    font-size: var(--font-size-span);
+    color: red;
+}
+.time_bid
+{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.time_bid span
+{
+    font-size: 14px;
+    color: black;
+}
